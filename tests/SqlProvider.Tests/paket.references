@@ -1,0 +1,10 @@
+NUnit
+FSharp.Core
+Fake
+
+group Scripts
+
+      Oracle.ManagedDataAccess
+      Newtonsoft.Json
+      Npgsql
+      System.Threading.Tasks.Extensions

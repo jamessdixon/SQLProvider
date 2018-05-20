@@ -11,7 +11,6 @@
 
 [Dd]ebug/
 [Rr]elease/
-x64/
 build/
 [Bb]in/
 [Oo]bj/
@@ -145,7 +144,7 @@ ModelManifest.xml
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
-
+*.laccdb
 # Folder config file
 Desktop.ini
 
@@ -177,3 +176,22 @@ nuget/
 nuget/*.nupkg
 docs/files/msaccess/Northwind.ldb
 *.orig
+.paket/paket.exe
+*.bak
+paket-files/
+docs/content/license.md
+docs/content/release-notes.md
+.fake/
+
+!tests/SqlProvider.Tests/libs
+*.userprefs
+.fake
+.fake
+docs/tools/FSharp.Formatting.svclog
+docs/content/core/northwindEF.db
+/tests/SqlProvider.Tests/scripts/NorthwindFBD1.sql
+/tests/SqlProvider.Tests/scripts/NORTHWINDFBD3-.FDB
+/tests/SqlProvider.Tests/scripts/NorthwindFBD3.sql
+/src/scripts/Script1.fsx
+/tests/**/dataTemp/
+/tests/**/connectorTemp/
